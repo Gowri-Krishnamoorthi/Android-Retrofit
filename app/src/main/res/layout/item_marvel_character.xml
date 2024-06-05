@@ -1,0 +1,72 @@
+<!-- item_marvel_character.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="?attr/selectableItemBackground">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/baseline_account_box_24" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textStyle="bold"
+        android:paddingTop="20dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/realName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Real Name"
+        android:paddingTop="10dp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/team"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Team"
+        android:paddingTop="10dp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/firstAppearance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="First Appearance"
+        android:paddingTop="10dp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/createdBy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Created By"
+        android:paddingTop="10dp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/publisher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Publisher"
+        android:paddingTop="7dp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/bio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bio"
+        android:paddingTop="10dp"
+        android:textSize="20sp"/>
+</LinearLayout>
